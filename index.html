@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ruta Río Limpio</title>
+  <link rel="stylesheet" href="cs.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <h1>Ruta Río Limpio por Región</h1>
+  <select id="region">
+    <option value="caribe">Región Caribe</option>
+    <option value="andina">Región Andina</option>
+    <option value="amazonia">Región Amazonía</option>
+    <option value="orinoquia">Región Orinoquía</option>
+    <option value="pacifica">Región Pacífica</option>
+  </select>
+  <button onclick="generarRuta()">Generar Ruta</button>
+  <div id="map"></div>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="javascript.js"></script>
+</body>
+</html>
